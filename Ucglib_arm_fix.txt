@@ -1,0 +1,10 @@
+// arm fix for Ucglib
+
+// See https://github.com/olikraus/Ucglib_Arduino/issues/5
+
+// add 3 lines to near top of Ucglib.h
+
+
+#if defined(__arm__)
+#define __NOP asm("nop\n\t")
+#endif
