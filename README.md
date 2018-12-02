@@ -36,7 +36,7 @@ __Summary:__
 
 Stuff "just works"
 
-Uploading "just works"  (I use STLINK)
+Uploading "just works"  (I use $3 STLINK)
 
 I'm a happy camper.
 
