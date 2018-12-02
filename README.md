@@ -6,8 +6,6 @@ This page entry is merely some personal jottings/observations/experiences using 
 
 Current "Core" (that code the Arduino's Board Manager option can add) = ST's __Arduino-Core_STM32__,  See https://github.com/stm32duino/Arduino_Core_STM32 .
 
-(For my notes on the smaller STM32F030F4P6, see https://github.com/BLavery/STM32F030F4P6-Arduino .)
-
 The LeafLabs Maple and Maple Mini boards (using the 128k flash version of the 'F103) generated a valiant software industry since about 2011, trying to make the 'F103 work easily with the Arduino IDE. Approach has been to use a flash-resident bootloader to make the M3's native USB ability to give a functioning USB port on the board. That USB port then can allow the Arduino IDE to program a sketch or to use a serial terminal. In time-honoured Arduino UNO fashion. The maple "core" uses the "libmaple" library derived from original maple board years. The current version of the old maple-style arduino "core" is the very similarly named "Arduino-STM32" here, still maintained by Roger Clark: https://github.com/rogerclarkmelbourne/Arduino_STM32. 
 
 Note that the Maple or Bluepill boards have no separate USB chip (like FTDI on the UNO or NANO) to do USB. But USB is possible from 2 pins of the M3 itself, if given some driver code (in the maple-derived bootloader).
@@ -38,3 +36,9 @@ Stuff "just works"
 Uploading "just works"  (I use STLINK)
 
 I'm a happy camper.
+
+.
+
+(For my notes on the smaller STM32F030F4P6, see https://github.com/BLavery/STM32F030F4P6-Arduino .)
+
+
