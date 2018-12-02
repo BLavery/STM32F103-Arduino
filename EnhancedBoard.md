@@ -2,7 +2,7 @@
 
 I often use another useful 'F103C8T6 board, with onboard connectors for ESP8266, NRF24, SD, Flash, EEprom, oled display, tft display, and serial to Bluetooth.
 It runs the same software, but this board has some differing pin uses:<img align="right" src="images/x44.png">
- - __PA1 led__
+ - __PA1 led__   <<<<<
  - PA2 TX2 to ESP8266 and Bluetooth connectors
  - PA3 RX2 to ESP8266 and Bluetooth connectors 
  - PA4 SPI SS, to SD card CD
@@ -17,5 +17,5 @@ It runs the same software, but this board has some differing pin uses:<img align
  - PB2 to NRF24 CSN & BOOT1
  - PB4 to EEprom
  - PB5 to EEprom
- - __PC13 To Flash chip CE__
+ - __PC13 To Flash chip CE__   <<<<<
 
