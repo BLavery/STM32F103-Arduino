@@ -14,6 +14,8 @@ The newer Arduino_Core_STM32 version of Arduino support, from the ST company and
 
 The assignment of MCU pins (PA0 PA1) against traditional Arduino D0 D1 D2 numbering or simply 0 1 2 3 numbering is dependent on configuration files in whichever core you install to your IDE. There are many (very nice) pin assignment images out there in search-space that do not agree with pin numbering in ST's core. I find that the easiest solution is to always in sketches use the PA0 PA1 notation, as that should always be correct no matter your hardware or your core. (That's tricky for still-available maple mini boards, as they are marked 0 1 2 !) And be careful that some boards (incl maple) use different LED or BUTTON pins anyway.
 
+__Running Libraries?__
+
 I have found that these codes/libraries work fine on the ST core and bluepill board:
  - Serial, Serial2 and Serial3 simultaneously
  - I2C native Wire, and native Wire2
@@ -29,7 +31,23 @@ I have found that these codes/libraries work fine on the ST core and bluepill bo
  - Adxl345
  - ENC28j60 ethernet: with a bit of tweaking. Flaky. Not really happy. Awaiting a W5500 adapter instead.
 
-Another similar board - with connectors for ESP8266, NRF24, SD, flash, bluetooth, EEprom. See [here](EnhancedBoard.md)
+__PINS:__
+
+Regular BluePill
+
+ - PC13 LED
+ - PA4 SPI SS
+ - PA5 SPI SCK
+ - PA6 SPI MISO
+ - PA7 SPI MOSI
+ - PA0-PA7, PB0-PB1 Analog (= A0-A9)
+ - PB6 PB7 SCL1 SDA1
+ - PB10 PB11 SCL2 SDA2
+ - PA9 PA10 TX1 RX1
+ - PA2 PA3 TX2 RX2
+ - PB10 PB11 TX3 RX3
+
+Another similar board - but with connectors for ESP8266, NRF24, SD, flash, bluetooth, EEprom. See [here](EnhancedBoard.md)
 
 
 __Summary:__
