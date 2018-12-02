@@ -29,7 +29,7 @@ I have found that these codes/libraries work fine on the ST core and bluepill bo
  - Adxl345
  - ENC28j60 ethernet: with a bit of tweaking. Flaky. Not really happy. Awaiting a W5500 adapter instead.
 
-Another similar board:<img align="right" src="images/x44.png">
+Another similar board - with connectors for ESP8266, NRF24, SD, flash, bluetooth, EEprom. See [here](EnhancedBoard.md)
 
 
 __Summary:__
