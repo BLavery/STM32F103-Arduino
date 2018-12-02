@@ -1,5 +1,5 @@
 # STM32F103-ARDUINO
-Notes on using Arduino_Core_STM332 with "Bluepill"
+Notes on using __Arduino_Core_STM32__ with "Bluepill"
 
 
 This page entry is merely some personal jottings/observations/experiences using STM32F103, mostly as "Bluepill" 64k flash 'F103C8T6. The 'F103 is ST's take on the arm M3 CPU.
