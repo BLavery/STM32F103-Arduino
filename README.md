@@ -51,7 +51,7 @@ __Summary:__
 
  - Stuff "just works"<img align="right" src="images/stl.jpg">
 
- - Uploading "just works"  (I use $3 STLINK)
+ - Uploading "just works"  (I use $3 STLINK clone)
 
 I'm a happy camper.
 
