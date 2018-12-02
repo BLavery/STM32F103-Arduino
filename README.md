@@ -32,6 +32,7 @@ I have found that these codes/libraries work fine on the ST core and bluepill bo
  - ENC28j60 ethernet: with a bit of tweaking. Flaky. Not really happy. Awaiting a W5500 adapter instead.
 
 __Summary:__
+
 Stuff "just works"
 
 Uploading "just works" - I use STLINK
