@@ -44,7 +44,7 @@ Regular BluePill
  - PA2 PA3 = TX2 RX2
  - PB10 PB11 = TX3 RX3
 
-Another similar board - but with connectors for ESP8266, NRF24, SD, flash, bluetooth, EEprom. See [here](EnhancedBoard.md)
+Another similar board - but with connectors for ESP8266, NRF24, SD, flash, bluetooth, EEprom, and OLED or TFT displays. See [here](EnhancedBoard.md)
 
 
 __Summary:__
