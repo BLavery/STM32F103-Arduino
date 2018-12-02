@@ -26,7 +26,7 @@ I have found that these codes/libraries work fine on the ST core and bluepill bo
  - NRFlite (compiles, hardware not tested yet)
  - SD - SD card in a slot
  - SerialFlash on a 16x256 flash chip
- - ADXL345
+ - Adxl345
  - ENC28j60 ethernet: with a bit of tweaking. Flaky. Not really happy. Awaiting a W5500 adapter instead.
 
 __Summary:__
