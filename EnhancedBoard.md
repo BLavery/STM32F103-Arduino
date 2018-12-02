@@ -1,6 +1,6 @@
 # Enhanced 'F103 board:
 
-I often use another useful 'F103C8T6 board, with onboard connectors for ESP8266, NRF24, SD, Flash, EEprom and Bluetooth.
+I often use another useful 'F103C8T6 board, with onboard connectors for ESP8266, NRF24, SD, Flash, EEprom, oled display, tft display, and serial to Bluetooth.
 It runs the same software, but this board has some differing pin uses:<img align="right" src="images/x44.png">
  - __PA1 led__
  - PA2 TX2 to ESP8266 and Bluetooth connectors
