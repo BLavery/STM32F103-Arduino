@@ -49,9 +49,9 @@ Another similar board - but with connectors for ESP8266, NRF24, SD, flash, bluet
 
 __Summary:__
 
-Stuff "just works"<img align="right" src="images/stl.jpg">
+ - Stuff "just works"<img align="right" src="images/stl.jpg">
 
-Uploading "just works"  (I use $3 STLINK)
+ - Uploading "just works"  (I use $3 STLINK)
 
 I'm a happy camper.
 
