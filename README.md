@@ -33,5 +33,7 @@ I have found that these codes/libraries work fine on the ST core and bluepill bo
 
 __Summary:__
 Stuff "just works"
+
 Uploading "just works" - I use STLINK
+
 I'm a happy camper.
