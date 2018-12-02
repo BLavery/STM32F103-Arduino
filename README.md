@@ -42,7 +42,7 @@ I have found that these codes/libraries work fine on the ST core and bluepill bo
  - Acrobotic OLED: native I2C, or modified slightly to use Softwire.
  - miniOled (see https://github.com/BLavery/miniOled), with native I2C or Softwire
  - UCGlib for ILI9341 SPI TFT display: slight fix for "arm"
- - UCGlib for ILI9163 SPI TFT display: on my display, needed slight fix for that 32-pixel offset devil.
+ - UCGlib for ILI9163 SPI TFT display: on my display, needed slight fix for that pesky 32-pixel offset devil.
  - FreeRTOS
  - NRFlite (compiles, comms link not tested yet)
  - SD - SD card in a slot
