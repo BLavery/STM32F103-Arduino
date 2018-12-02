@@ -7,7 +7,7 @@ Notes on using __Arduino_Core_STM32__ with "Bluepill"
 
 This page entry is merely some personal jottings/observations/experiences using STM32F103, mostly as "Bluepill" 64k flash 'F103C8T6. The 'F103 is ST's version of the arm M3 CPU.
 
-Current "Core" (that code the Arduino's Board Manager option can add) = ST's __Arduino-Core_STM32__,  See https://github.com/stm32duino/Arduino_Core_STM32 .
+Current "Core" (that code the Arduino's Board Manager option can add) = STmicroelectronics's __Arduino-Core_STM32__,  See https://github.com/stm32duino/Arduino_Core_STM32 .
 
 The LeafLabs Maple and Maple Mini boards (using the 128k flash version of the 'F103) generated a valiant software industry since about 2011, trying to make the 'F103 work easily with the Arduino IDE. Approach has been to use a flash-resident bootloader to make the M3's native USB ability to give a functioning USB port on the board. That USB port then can allow the Arduino IDE to program a sketch or to use a serial terminal. In time-honoured Arduino UNO fashion. The maple "core" uses the "libmaple" library derived from original maple board years. The current version of the old maple-style arduino "core" is the very similarly named "Arduino-STM32" here, still maintained by Roger Clark: https://github.com/rogerclarkmelbourne/Arduino_STM32. 
 
