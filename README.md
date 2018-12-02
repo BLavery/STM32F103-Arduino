@@ -25,7 +25,7 @@ I have found that these codes/libraries work fine on the ST core and bluepill bo
  - UCGlib for ILI9341 SPI TFT display: slight fix for "arm"
  - UCGlib for ILI9163 SPI TFT display: on my display, needed slight fix for that 32-pixel offset devil.
  - FreeRTOS
- - NRFlite (compiles, hardware not tested yet)
+ - NRFlite (compiles, comms link not tested yet)
  - SD - SD card in a slot
  - SerialFlash on a 16x256 flash chip
  - Adxl345
