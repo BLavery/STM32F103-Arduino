@@ -35,17 +35,14 @@ __PINS:__
 
 Regular BluePill
 
- - PC13 LED
- - PA4 SPI SS
- - PA5 SPI SCK
- - PA6 SPI MISO
- - PA7 SPI MOSI
- - PA0-PA7, PB0-PB1 Analog (= A0-A9)
- - PB6 PB7 SCL1 SDA1
- - PB10 PB11 SCL2 SDA2
- - PA9 PA10 TX1 RX1
- - PA2 PA3 TX2 RX2
- - PB10 PB11 TX3 RX3
+ - PC13 = LED
+ - PA4 PA5 PA6 PA7 = SPI SS, SCK, MISO, MOSI
+ - PA0-PA7, PB0-PB1 = Analog (= A0-A9)
+ - PB6 PB7 = SCL1 SDA1
+ - PB10 PB11 = SCL2 SDA2
+ - PA9 PA10 = TX1 RX1
+ - PA2 PA3 = TX2 RX2
+ - PB10 PB11 = TX3 RX3
 
 Another similar board - but with connectors for ESP8266, NRF24, SD, flash, bluetooth, EEprom. See [here](EnhancedBoard.md)
 
