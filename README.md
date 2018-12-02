@@ -3,6 +3,7 @@
 # STM32F103C8T6-ARDUINO
 Notes on using __Arduino_Core_STM32__ with "Bluepill"
 
+2 Dec 2018
 
 This page entry is merely some personal jottings/observations/experiences using STM32F103, mostly as "Bluepill" 64k flash 'F103C8T6. The 'F103 is ST's version of the arm M3 CPU.
 
