@@ -1,5 +1,5 @@
 # STM32F103-ARDUINO
-Notes on using __Arduino_Core_STM32__ with "Bluepill"<img align="right" src="images/STM32_Blue_Pill.jpg">
+Notes on using __Arduino_Core_STM32__ with "Bluepill"<img align="right" src="images/STM32_BluePill.jpg">
 
 
 This page entry is merely some personal jottings/observations/experiences using STM32F103, mostly as "Bluepill" 64k flash 'F103C8T6. The 'F103 is ST's take on the arm M3 CPU.
@@ -29,7 +29,7 @@ I have found that these codes/libraries work fine on the ST core and bluepill bo
  - Adxl345
  - ENC28j60 ethernet: with a bit of tweaking. Flaky. Not really happy. Awaiting a W5500 adapter instead.
 
-Another similar board:<img align="right" src="images/x4.png">
+Another similar board:<img align="right" src="images/x44.png">
 
 
 __Summary:__
