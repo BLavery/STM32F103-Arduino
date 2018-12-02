@@ -1,4 +1,4 @@
-# STM32F103-ARDUINO
+# STM32F103C8T6-ARDUINO
 Notes on using __Arduino_Core_STM32__ with "Bluepill"<img align="right" src="images/STM32_BluePill.jpg">
 
 
