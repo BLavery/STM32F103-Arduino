@@ -12,7 +12,7 @@ The LeafLabs Maple and Maple Mini boards (using the 128k flash version of the 'F
 
 Note that the Maple or Bluepill boards have no separate USB chip (like FTDI on the UNO or NANO) to do USB. But USB is possible from 2 pins of the M3 itself, if given some driver code (in the maple-derived bootloader).
 
-The newer Arduino_Core_STM32 version of Arduino support, from the ST company, does NOT use a flash-loaded bootloader. So USB is not a possibility for uploading your sketch. Instead, uploading is done either by STLINK adapter, or a 3 volt TTL serial adapter, and these two modes are built into the chip by manufacturer ST. STLINK mode can upload virtually any time. Uploading by serial requires a reset with "boot0" set high, to get to upload mode.
+The newer Arduino_Core_STM32 version of Arduino support, from the ST company and based on ST's HAL code not libmaple, does NOT use a flash-loaded bootloader. So USB is not a possibility for uploading your sketch. Instead, uploading is done either by STLINK adapter, or a 3 volt TTL serial adapter, and these two modes are built into the chip by manufacturer ST. STLINK mode can upload virtually any time. Uploading by serial requires a reset with "boot0" set high, to get to upload mode.
 
 The assignment of MCU pins to traditional Arduino D0 D1 D2 numbering or simply 0 1 2 3 numbering is dependent on configuration files in whichever core you install to your IDE. There are many (very nice) pin assignment images out there in search-space that do not agree with ST's core. I find that the easiest solution is to always in sketches use the PA0 PA1 notation, as that should always be correct no matter your hardware. (That doesn't help for still-available maple mini boards, as they are marked 0 1 2 !)
 
