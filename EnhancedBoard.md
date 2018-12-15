@@ -16,6 +16,6 @@ It runs the same software, but this board has some differing pin uses:<img align
  - PB0 to NFR24 CE
  - PB2 to NRF24 CSN & BOOT1
  - PB4 to EEprom
- - PB5 to EEprom
+ - PB6 to EEprom  Note <<<<< conflicts with regular Wire I2C on PB5/PB6
  - __PC13 To Flash chip CE__   <<<<<
 
