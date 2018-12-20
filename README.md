@@ -62,9 +62,9 @@ I'm a happy camper.
 
 __Related:__
 
-For my notes on the smaller STM32F030F4P6, see https://github.com/BLavery/STM32F030F4P6-Arduino .
-
-For my notes on the 1024k STM32F407VG, see https://github.com/BLavery/STM32F407VG-Arduino
+For my notes on the smaller STM32F030F4P6, see https://github.com/BLavery/STM32F030F4P6-Arduino  
+For my notes on the 1024k STM32F407VG, see https://github.com/BLavery/STM32F407VG-Arduino  
+For my notes on the SAMD21-M0-Mini, see https://github.com/BLavery/SAMD21-Mini-Wemos
 
 
 
