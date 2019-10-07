@@ -5,6 +5,9 @@ Notes on using __Arduino_Core_STM32__ with "Bluepill"
 
 2 Dec 2018
 
+### 2019 - This is no longer being maintained by the original author.
+### Please feel free to fork, copy, adapt if you find it useable
+
 This page entry is merely some personal jottings/observations/experiences using STM32F103, mostly as "Bluepill" 64k flash 'F103C8T6. The 'F103 is ST's version of the arm M3 CPU.
 
 Current "Core" (that code the Arduino's Board Manager option can add) = STmicroelectronics's __Arduino-Core_STM32__,  See https://github.com/stm32duino/Arduino_Core_STM32 .
